@@ -1,5 +1,5 @@
-export const FACTORY_ADDRESS = '0xefa94DE7a4656D787667C749f7E1223D71E9FD88' // new factory
-
+// export const FACTORY_ADDRESS = '0xefa94DE7a4656D787667C749f7E1223D71E9FD88' // Pangoline new factory
+export const FACTORY_ADDRESS = '0x4Fe4D8b01A56706Bc6CaD26E8C59D0C7169976b3' // Olive
 export const WAVAX_ADDRESS = '0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7'
 
 export const BUNDLE_ID = '1'
@@ -14,7 +14,7 @@ export const timeframeOptions = {
 
 // token list urls to fetch tokens from - use for warnings on tokens and pairs
 export const SUPPORTED_LIST_URLS__NO_ENS = [
-  'https://raw.githubusercontent.com/pangolindex/tokenlists/main/aeb.tokenlist.json',
+  'https://github.com/olive-cash/olive-swap-interface/blob/master/src/constants/token/oliveswap.json',
   'https://raw.githubusercontent.com/pangolindex/tokenlists/main/top15.tokenlist.json'
 ]
 

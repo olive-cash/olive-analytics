@@ -164,8 +164,8 @@ function SideNav({ history }) {
           </AutoColumn>
           <AutoColumn gap="0.5rem" style={{ marginLeft: '.75rem', marginBottom: '4rem' }}>
             <HeaderText>
-              <Link href="https://app.pangolin.exchange" target="_blank">
-                Pangolin
+              <Link href="https://swap.olive.cash" target="_blank">
+                Olive.Cash
               </Link>
             </HeaderText>
             <HeaderText>

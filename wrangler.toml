@@ -1,6 +1,6 @@
 name = "pangolin-analytics"
 type = "javascript"
-route = "info.pangolin.exchange/*"
+route = "info.olive.cash/*"
 
 [site]
 bucket = "./build"

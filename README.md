@@ -1,12 +1,10 @@
-# Pangolin Analytics
+# OliveCash Analytics
 
-An open source analytics platform for Pangolin -- a community-driven decentralized exchange for Avalanche and Ethereum assets with fast settlement, low transaction fees, and a democratic distribution -- powered by Avalanche.
+An open source analytics platform for OliveCash -- a community-driven decentralized exchange for Avalanche and Ethereum assets with fast settlement, low transaction fees, and a democratic distribution -- powered by Avalanche.
 
-- Website: [pangolin.exchange](https://pangolin.exchange/)
-- Interface: [app.pangolin.exchange](https://app.pangolin.exchange)
-- Telegram: [Pangolin](https://t.me/pangolindex)
-- Discord: [Pangolin](https://discord.com/invite/PARrDYYbfw)
-- Twitter: [@pangolindex](https://twitter.com/pangolindex)
+- Website: [OliveCash](https://avax.olive.cash/)
+- Telegram: [Olive.Cash Community](https://t.me/olive_cash_chat)
+- Twitter: [@OliveCashBsc](https://twitter.com/OliveCashBsc)
 
 ### To Start Development
 
