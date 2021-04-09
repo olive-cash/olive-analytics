@@ -11,6 +11,8 @@ export function useColor(tokenAddress, token) {
     const path = `https://raw.githubusercontent.com/ava-labs/bridge-tokens/main/avalanche-tokens/${isAddress(
       tokenAddress
     )}/logo.png`
+
+
     if (path) {
       Vibrant.from(path).getPalette((err, palette) => {
         if (palette && palette.Vibrant) {

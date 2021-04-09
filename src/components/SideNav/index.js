@@ -165,16 +165,16 @@ function SideNav({ history }) {
           <AutoColumn gap="0.5rem" style={{ marginLeft: '.75rem', marginBottom: '4rem' }}>
             <HeaderText>
               <Link href="https://swap.olive.cash" target="_blank">
-                Olive.Cash
+                Trade
               </Link>
             </HeaderText>
             <HeaderText>
-              <Link href="https://chat.avalabs.org" target="_blank">
-                Discord
+              <Link href="https://t.me/olive_cash_chat" target="_blank">
+                Telegram
               </Link>
             </HeaderText>
             <HeaderText>
-              <Link href="https://twitter.com/avalancheavax" target="_blank">
+              <Link href="https://twitter.com/OliveCashBsc" target="_blank">
                 Twitter
               </Link>
             </HeaderText>
