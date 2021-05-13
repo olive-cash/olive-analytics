@@ -71,9 +71,23 @@ export default function TokenLogo({ address, header = false, size = '24px', ...r
   }
 
   const tokenString = isAddress(address)
-  const path = tokenString === "0x617724974218A18769020A70162165A539c07E8a" ? "https://olive.cash/olive.png" : `https://raw.githubusercontent.com/ava-labs/bridge-tokens/main/avalanche-tokens/${isAddress(
+  var path = `https://raw.githubusercontent.com/ava-labs/bridge-tokens/main/avalanche-tokens/${isAddress(
     address
   )}/logo.png`
+
+  if (tokenString === '0xE1C8f3d529BEa8E3fA1FAC5B416335a2f998EE1C') {
+    path =
+      'https://raw.githubusercontent.com/elkfinance/bridge-tokens/main/avalanche-tokens/0xE1C8f3d529BEa8E3fA1FAC5B416335a2f998EE1C/logo.png'
+  }
+  if (tokenString === '0xD606199557c8Ab6F4Cc70bD03FaCc96ca576f142') {
+    path = 'https://avax.olive.cash/images/tokens/gdl.png'
+  }
+  if (tokenString === '0xDcEA074715F990fB4a1737e7A8aD33dF804A88F1') {
+    path = 'https://avax.olive.cash/images/tokens/mkc.png'
+  }
+  if (tokenString === '0x2841A8a2ce98A9d21aD8C3B7Fc481527569bd7bb') {
+    path = 'https://avax.olive.cash/images/tokens/sl3.png'
+  }
 
   return (
     <Inline>
