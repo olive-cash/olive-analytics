@@ -7,7 +7,6 @@ import Link from '../Link'
 import { RowFixed } from '../Row'
 import Logo from '../../assets/logo.svg'
 import Wordmark from '../../assets/wordmark.png'
-import { TYPE } from '../../Theme'
 
 const TitleWrapper = styled.div`
   text-decoration: none;
