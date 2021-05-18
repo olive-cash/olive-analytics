@@ -1,6 +1,6 @@
 # OliveCash Analytics
 
-An open source analytics platform for OliveCash -- a community-driven decentralized exchange for Avalanche and Ethereum assets with fast settlement, low transaction fees, and a democratic distribution -- powered by Avalanche.
+An open source analytics platform for OliveCash -- a community-driven decentralized exchange for Avalanche assets with fast settlement, low transaction fees, and a democratic distribution -- powered by Avalanche.
 
 - Website: [OliveCash](https://avax.olive.cash/)
 - Telegram: [Olive.Cash Community](https://t.me/olive_cash_chat)
