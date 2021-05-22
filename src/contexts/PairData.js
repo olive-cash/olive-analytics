@@ -278,8 +278,9 @@ function parseData(data, oneDayData, twoDayData, oneWeekData, ethPrice, oneDayBl
     oneDayData?.untrackedVolumeUSD ? parseFloat(oneDayData?.untrackedVolumeUSD) * ethPrice : 0,
     twoDayData?.untrackedVolumeUSD ? twoDayData?.untrackedVolumeUSD * ethPrice : 0
   )
-  const oneWeekVolumeUSD = parseFloat(oneWeekData ? (data?.volumeUSD - oneWeekData?.volumeUSD) * ethPrice : data.volumeUSD * ethPrice)
-
+  const oneWeekVolumeUSD = parseFloat(data.volumeUSD * ethPrice)
+  // const oneWeekVolumeUSD = parseFloat(oneWeekData ? (data?.volumeUSD - oneWeekData?.volumeUSD) * ethPrice : data.volumeUSD * ethPrice)
+  
   // set volume properties
   data.oneDayVolumeUSD = parseFloat(oneDayVolumeUSD)
   data.oneWeekVolumeUSD = oneWeekVolumeUSD
