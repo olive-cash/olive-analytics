@@ -178,6 +178,11 @@ function SideNav({ history }) {
                 Twitter
               </Link>
             </HeaderText>
+            <HeaderText>
+              <Link href="https://markr.io/#/applications/Olive" target="_blank">
+                Markr.io
+              </Link>
+            </HeaderText>
             <Toggle isActive={isDark} toggle={toggleDarkMode} />
           </AutoColumn>
           {!below1180 && (
