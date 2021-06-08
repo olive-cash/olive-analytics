@@ -70,46 +70,46 @@ export default function TokenLogo({ address, header = false, size = '24px', ...r
     )
   }
 
-  const tokenString = isAddress(address)
+  const tokenString = isAddress(address).toLowerCase()
   var path = `https://raw.githubusercontent.com/ava-labs/bridge-tokens/main/avalanche-tokens/${isAddress(
     address
   )}/logo.png`
 
-  if (tokenString === '0xE1C8f3d529BEa8E3fA1FAC5B416335a2f998EE1C') {
+  if (tokenString === '0xE1C8f3d529BEa8E3fA1FAC5B416335a2f998EE1C'.toLowerCase()) {
     path =
       'https://raw.githubusercontent.com/elkfinance/bridge-tokens/main/avalanche-tokens/0xE1C8f3d529BEa8E3fA1FAC5B416335a2f998EE1C/logo.png'
   }
-  if (tokenString === '0xD606199557c8Ab6F4Cc70bD03FaCc96ca576f142') {
+  if (tokenString === '0xD606199557c8Ab6F4Cc70bD03FaCc96ca576f142'.toLowerCase()) {
     path = 'https://avax.olive.cash/images/tokens/gdl.png'
   }
-  if (tokenString === '0xDcEA074715F990fB4a1737e7A8aD33dF804A88F1') {
+  if (tokenString === '0xDcEA074715F990fB4a1737e7A8aD33dF804A88F1'.toLowerCase()) {
     path = 'https://avax.olive.cash/images/tokens/mkc.png'
   }
-  if (tokenString === '0x2841A8a2ce98A9d21aD8C3B7Fc481527569bd7bb') {
+  if (tokenString === '0x2841A8a2ce98A9d21aD8C3B7Fc481527569bd7bb'.toLowerCase()) {
     path = 'https://avax.olive.cash/images/tokens/sl3.png'
   }
-  if (tokenString === '0x65378b697853568dA9ff8EaB60C13E1Ee9f4a654') {
+  if (tokenString === '0x65378b697853568dA9ff8EaB60C13E1Ee9f4a654'.toLowerCase()) {
     path = 'https://avax.olive.cash/images/tokens/husky.png'
   }
-  if (tokenString === '0x3711c397B6c8F7173391361e27e67d72F252cAad') {
+  if (tokenString === '0x3711c397B6c8F7173391361e27e67d72F252cAad'.toLowerCase()) {
     path = 'https://avax.olive.cash/images/tokens/com.png'
   }
-  if (tokenString === '0x008e26068b3eb40b443d3ea88c1ff99b789c10f7') {
+  if (tokenString === '0x008e26068b3eb40b443d3ea88c1ff99b789c10f7'.toLowerCase()) {
     path = 'https://avax.olive.cash/images/tokens/zero.png'
   }
-  if (tokenString === '0x95d16B76A4F29dBdb2D9Ea2c4D0a31e2a1D830B3') {
+  if (tokenString === '0x95d16B76A4F29dBdb2D9Ea2c4D0a31e2a1D830B3'.toLowerCase()) {
     path = 'https://avax.olive.cash/images/tokens/akbash.png'
   }
-  if (tokenString === '0xD9702F5E3b0eb7452967CB82529776D672bdC03F') {
+  if (tokenString === '0xD9702F5E3b0eb7452967CB82529776D672bdC03F'.toLowerCase()) {
     path = 'https://avax.olive.cash/images/tokens/neko.png'
   }
-  if (tokenString === '0x78ea17559B3D2CF85a7F9C2C704eda119Db5E6dE') {
+  if (tokenString === '0x78ea17559B3D2CF85a7F9C2C704eda119Db5E6dE'.toLowerCase()) {
     path = 'https://avax.olive.cash/images/tokens/ave.png'
   }
-  if (tokenString === '0xcf98695af7eacd36e036dedb6e192c1c9c7e66d6') {
+  if (tokenString === '0xcf98695af7eacd36e036dedb6e192c1c9c7e66d6'.toLowerCase()) {
     path = 'https://avax.olive.cash/images/tokens/snowleopard.png'
   }
-  if (tokenString === '0x61eCd63e42C27415696e10864d70ecEA4aA11289') {
+  if (tokenString === '0x61eCd63e42C27415696e10864d70ecEA4aA11289'.toLowerCase()) {
     path = 'https://avax.olive.cash/images/tokens/rugpull.png'
   }
   return (
