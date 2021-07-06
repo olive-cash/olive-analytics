@@ -112,6 +112,9 @@ export default function TokenLogo({ address, header = false, size = '24px', ...r
   if (tokenString === '0x61eCd63e42C27415696e10864d70ecEA4aA11289'.toLowerCase()) {
     path = 'https://avax.olive.cash/images/tokens/rugpull.png'
   }
+  if (tokenString === '0x1CcCA1cE62c62F7Be95d4A67722a8fDbed6EEcb4'.toLowerCase()) {
+    path = 'https://avax.olive.cash/images/tokens/laika.png'
+  }
   return (
     <Inline>
       <Image
