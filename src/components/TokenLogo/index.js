@@ -115,6 +115,24 @@ export default function TokenLogo({ address, header = false, size = '24px', ...r
   if (tokenString === '0x1CcCA1cE62c62F7Be95d4A67722a8fDbed6EEcb4'.toLowerCase()) {
     path = 'https://avax.olive.cash/images/tokens/laika.png'
   }
+  if (tokenString === '0x6e84a6216ea6dacc71ee8e6b0a5b7322eebc0fdd'.toLowerCase()) {
+    path = 'https://raw.githubusercontent.com/traderjoe-xyz/joe-tokenlists/main/logos/0x6e84a6216eA6dACC71eE8E6b0a5B7322EEbC0fDd/logo.png'
+  }
+  if (tokenString === '0x59414b3089ce2AF0010e7523Dea7E2b35d776ec7'.toLowerCase()) {
+    path = 'https://avax.olive.cash/images/tokens/0x59414b3089ce2AF0010e7523Dea7E2b35d776ec7.png'
+  }
+
+  // new AB tokens
+  if (tokenString === '0xc7198437980c041c805A1EDcbA50c1Ce5db95118'.toLowerCase()) {
+    path = 'https://raw.githubusercontent.com/ava-labs/bridge-tokens/main/avalanche-tokens/0xde3A24028580884448a5397872046a019649b084/logo.png'
+  }
+  if (tokenString === '0xd586E7F844cEa2F87f50152665BCbc2C279D8d70'.toLowerCase()) {
+    path = 'https://raw.githubusercontent.com/ava-labs/bridge-tokens/main/avalanche-tokens/0xbA7dEebBFC5fA1100Fb055a87773e1E99Cd3507a/logo.png'
+  }
+  if (tokenString === '0x19860ccb0a68fd4213ab9d8266f7bbf05a8dde98'.toLowerCase()) {
+    path = 'https://raw.githubusercontent.com/ava-labs/bridge-tokens/main/avalanche-tokens/0xaEb044650278731Ef3DC244692AB9F64C78FfaEA/logo.png'
+  }
+
   return (
     <Inline>
       <Image
