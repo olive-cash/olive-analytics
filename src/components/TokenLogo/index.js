@@ -121,6 +121,9 @@ export default function TokenLogo({ address, header = false, size = '24px', ...r
   if (tokenString === '0x59414b3089ce2AF0010e7523Dea7E2b35d776ec7'.toLowerCase()) {
     path = 'https://avax.olive.cash/images/tokens/0x59414b3089ce2AF0010e7523Dea7E2b35d776ec7.png'
   }
+  if (tokenString === '0x4735721ED62713E3A141C939f4Aa55cA8aD5F66A'.toLowerCase()) {
+    path = 'https://avax.olive.cash/images/tokens/0x4735721ED62713E3A141C939f4Aa55cA8aD5F66A.png'
+  }
 
   // new AB tokens
   if (tokenString === '0xc7198437980c041c805A1EDcbA50c1Ce5db95118'.toLowerCase()) {
