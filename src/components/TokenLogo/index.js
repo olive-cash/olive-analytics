@@ -124,7 +124,12 @@ export default function TokenLogo({ address, header = false, size = '24px', ...r
   if (tokenString === '0x4735721ED62713E3A141C939f4Aa55cA8aD5F66A'.toLowerCase()) {
     path = 'https://avax.olive.cash/images/tokens/0x4735721ED62713E3A141C939f4Aa55cA8aD5F66A.png'
   }
-
+  if (tokenString === '0xDd453dBD253fA4E5e745047d93667Ce9DA93bbCF'.toLowerCase()) {
+    path = 'https://zabu.finance/logo.png'
+  }
+  if (tokenString === '0x999c891262ce01f1c1afd1d46260e4c1e508b243'.toLowerCase()) {
+    path = 'https://raw.githubusercontent.com/pangolindex/tokens/main/assets/0x999c891262ce01f1C1AFD1D46260E4c1E508B243/logo.png'
+  }
   // new AB tokens
   if (tokenString === '0xc7198437980c041c805A1EDcbA50c1Ce5db95118'.toLowerCase()) {
     path = 'https://raw.githubusercontent.com/ava-labs/bridge-tokens/main/avalanche-tokens/0xde3A24028580884448a5397872046a019649b084/logo.png'
