@@ -164,7 +164,7 @@ function SideNav({ history }) {
           </AutoColumn>
           <AutoColumn gap="0.5rem" style={{ marginLeft: '.75rem', marginBottom: '4rem' }}>
             <HeaderText>
-              <Link href="https://swap.olive.cash" target="_blank">
+              <Link href="https://olive.cash/swap?outputCurrency=0x617724974218A18769020A70162165A539c07E8a" target="_blank">
                 Trade
               </Link>
             </HeaderText>
