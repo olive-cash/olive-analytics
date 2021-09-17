@@ -140,7 +140,9 @@ export default function TokenLogo({ address, header = false, size = '24px', ...r
   if (tokenString === '0x19860ccb0a68fd4213ab9d8266f7bbf05a8dde98'.toLowerCase()) {
     path = 'https://raw.githubusercontent.com/ava-labs/bridge-tokens/main/avalanche-tokens/0xaEb044650278731Ef3DC244692AB9F64C78FfaEA/logo.png'
   }
-
+  if (tokenString === '0xaB2712b217F0015B602C06E4fb66B8cf8B04F894'.toLowerCase()) {
+    path = 'https://avax.olive.cash/images/tokens/0xaB2712b217F0015B602C06E4fb66B8cf8B04F894.png'
+  }
   return (
     <Inline>
       <Image
